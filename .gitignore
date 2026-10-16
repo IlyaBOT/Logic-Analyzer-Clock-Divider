@@ -1,0 +1,42 @@
+# KiCad local preferences, locks, autosaves and automatic backups
+*.kicad_prl
+~*.lck
+_autosave-*
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*.brd-bak
+*.pro-bak
+fp-info-cache
+
+# Freerouting exchange files
+*.dsn
+*.ses
+
+# Superseded generators, one-time migration and pre-manual-layout logs
+/scripts/design.py
+/scripts/build_pcb.py
+/scripts/add_power_header.py
+/reports/historical/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local scratch directories
+/temp/
+/tmp/
+/.portable_check_*/
+*.tmp
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep native CAD, local libraries, docs/, previews/ and reports/ versionable.
+# In particular, reports/user_R4_original.zip is an intentional source archive.

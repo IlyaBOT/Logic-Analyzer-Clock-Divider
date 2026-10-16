@@ -1,0 +1,24 @@
+{
+  "exporter": "KiCad 10.0.6 CLI via scripts/export.py",
+  "export_process_exit_code": 0,
+  "rendering": "Poppler PNG previews inspected; native KiCad 3D front/back inspected",
+  "source_sha256": {
+    "ACT161_Frequency_Divider.kicad_sch": "dc645ffd8f1399dc9e17d4b2ce9c8c68495a97b33b39468b2b310f930c8ac9fd",
+    "ACT161_Frequency_Divider.kicad_pcb": "aa4348be1be8af92e251cba3fbbfa625dab275fe0b5b620ac280325e4900f3ed",
+    "ACT161_Frequency_Divider.kicad_pro": "8d6e448b23994cc6082942a5cbb27c5d155baf6917d95675afb58ec29cdd92a2"
+  },
+  "outputs": {
+    "docs\\assembly_back.pdf": "a8312179930e5229fad3088a697bb123865e7f1469489698e02f0bef28026ca4",
+    "docs\\assembly_front.pdf": "65cbf98b2afc3a3886271890490182de4c548f201dadaa14e9e03e4cdb9023e6",
+    "docs\\pcb_back.pdf": "af98aaee85abc61f392c7ff793a8c8e7697202855584e9054af296e326590c5a",
+    "docs\\pcb_front.pdf": "5e816b58162f76d506da517e59b625593f997fe8f32234d2f0d9eb1920c46eea",
+    "docs\\schematic.pdf": "720d2745cb574548ec6ffbf15f4e82ca577a1246bf4417ff2dfbc54c0e7fccaa",
+    "previews\\assembly_back.png": "e147c16ef3b477a3d302b9f606ee1d92f870efc3dc46833623a6ce541b183ff2",
+    "previews\\assembly_front.png": "ad3b72fb8db78bbb96c4c7f1837bd918f48691b2a73fe3958132144efee8ef4c",
+    "previews\\pcb_3d.png": "21aee9dab3a4af042186d9746eb7e9f5ae521612950ce388ea6500e61bc59c30",
+    "previews\\pcb_3d_back.png": "55f55ae614b4cf317da41b7f68e20af63671d6c760b062dc327db77e6dc1b2cf",
+    "previews\\pcb_back.png": "dd0a7eafbe79afc07e54d6ea82e2fa2269e8987d8d382b34122edf9b2667d088",
+    "previews\\pcb_front.png": "8dca89a0c9504342348cabfeca7f03e6e8e27cb3a88212615374d4846e7a566d",
+    "previews\\schematic.png": "6055731825ae34dadd9de93538ffe574db3c1d8f463833ca3c86d385f6ce46d2"
+  }
+}

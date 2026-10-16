@@ -1,0 +1,87 @@
+** Drc report for ACT161_Frequency_Divider.kicad_pcb **
+** Created on 2026-10-09T03:29:48 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 14 DRC violations **
+[clearance]: Clearance violation (barcode visual separation default clearance 1,0000 mm; actual 0,4860 mm)
+    Rule: barcode visual separation default; error
+    @(141.2000 mm, 108.0000 mm): Barcode 'https://t.me/ibworkshop' on F.Cu
+    @(137.2000 mm, 111.2000 mm): PCB text 'https://t.me/ibworkshop' on F.Cu
+[text_height]: Text height out of range (board setup constraints silk text height min height 0,8000 mm; actual 0,6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(132.6000 mm, 92.2000 mm): PCB text 'DIV2' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0,8000 mm; actual 0,6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(132.6000 mm, 94.8000 mm): PCB text 'DIV4' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0,8000 mm; actual 0,6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(132.6000 mm, 97.2000 mm): PCB text 'DIV8' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0,8000 mm; actual 0,6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(132.6000 mm, 99.8000 mm): PCB text 'DIV16' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(163.8000 mm, 100.2000 mm): PCB text 'CLK IN' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(131.6000 mm, 90.4000 mm): PCB text 'J2' on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(140.4500 mm, 88.2625 mm): Reference field of U3
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0,1500 mm; actual 0,1497 mm)
+    Rule: board setup constraints silk; warning
+    @(136.2000 mm, 94.4000 mm): Reference field of R6
+    @(134.8000 mm, 93.4000 mm): Reference field of R1
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0,1500 mm; actual 0,1096 mm)
+    Rule: board setup constraints silk; warning
+    @(132.8373 mm, 95.3375 mm): Segment of R2 on F.Silkscreen
+    @(132.6000 mm, 94.8000 mm): PCB text 'DIV4' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0,1500 mm; actual 0,0186 mm)
+    Rule: board setup constraints silk; warning
+    @(161.4900 mm, 93.2700 mm): Rectangle of U1 on F.Silkscreen
+    @(162.6000 mm, 98.0000 mm): Reference field of R15
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0,1500 mm; actual 0,0000 mm)
+    Rule: board setup constraints silk; warning
+    @(155.3000 mm, 92.8000 mm): Reference field of R13
+    @(161.4900 mm, 93.2700 mm): Rectangle of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0,1500 mm; actual 0,1312 mm)
+    Rule: board setup constraints silk; warning
+    @(161.4300 mm, 98.4100 mm): Arc of U1 on F.Silkscreen
+    @(162.6000 mm, 98.0000 mm): Reference field of R15
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0,1500 mm; actual 0,1312 mm)
+    Rule: board setup constraints silk; warning
+    @(162.6000 mm, 98.0000 mm): Reference field of R15
+    @(161.4300 mm, 97.4100 mm): Segment of U1 on F.Silkscreen
+
+** Found 5 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.7000 mm, 95.8600 mm): Pad 3 [/DIV4] of J2 on F.Cu
+    @(131.7750 mm, 95.8600 mm): Pad 2 [/DIV4] of R2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.7000 mm, 93.3200 mm): Pad 1 [/DIV2] of J2 on F.Cu
+    @(131.7750 mm, 93.3200 mm): Pad 2 [/DIV2] of R1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.7000 mm, 98.4000 mm): Pad 5 [/DIV8] of J2 on F.Cu
+    @(131.7750 mm, 98.4000 mm): Pad 2 [/DIV8] of R3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.7000 mm, 100.9400 mm): Pad 7 [/DIV16] of J2 on F.Cu
+    @(131.7750 mm, 100.9400 mm): Pad 2 [/DIV16] of R4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.2250 mm, 93.6000 mm): Pad 1 [/CLK_IN] of R14 on F.Cu
+    @(167.3000 mm, 93.3200 mm): Pad 1 [/CLK_IN] of J3 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

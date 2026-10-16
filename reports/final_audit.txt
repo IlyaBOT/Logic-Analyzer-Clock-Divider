@@ -1,0 +1,13 @@
+Final artifact audit: PASS
+- All requested native files, PDFs, PNG previews, BOM and documentation present.
+- SHA256 matches the files that passed the last native ERC/DRC run.
+- DRC exclusions empty; critical checks remain errors; user project settings preserved.
+- Saved project minima verified: copper 0.20 mm, silk 0.15 mm, track 0.20 mm, via 0.60 mm, edge 0.50 mm.
+- Every footprint has courtyard on its assembly side.
+- Full pad-number sets and physical pad types match the independent assembly list.
+- All non-ground vias terminate tracks at their centers on both copper layers.
+- GND zones remove all isolated islands.
+- Solder-mask expansion 0.05 mm and minimum web 0.10 mm confirmed from saved board.
+- Every referenced 3D model exists inside the portable project directory.
+- Same-PC relocated copy passed native ERC/DRC/parity (portable_ERC.txt / portable_DRC.txt).
+This audit is not physical testing or mechanical qualification of J2/J3/SCS-16.

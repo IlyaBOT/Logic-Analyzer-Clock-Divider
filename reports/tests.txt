@@ -1,0 +1,20 @@
+test_connector_sides_numbering (__main__.BoardTests.test_connector_sides_numbering) ... ok
+test_default_level_assembly (__main__.BoardTests.test_default_level_assembly) ... ok
+test_exact_pad_nets (__main__.BoardTests.test_exact_pad_nets) ... ok
+test_geometry_and_decoupling (__main__.BoardTests.test_geometry_and_decoupling) ... ok
+test_power_header_location_and_polarity (__main__.BoardTests.test_power_header_location_and_polarity) ... ok
+test_user_routing_and_placement_preserved (__main__.BoardTests.test_user_routing_and_placement_preserved) ... ok
+test_all_footprints (__main__.ElectricalTests.test_all_footprints) ... ok
+test_datasheet_pinmaps (__main__.ElectricalTests.test_datasheet_pinmaps) ... ok
+test_direct_outputs_and_power_selection (__main__.ElectricalTests.test_direct_outputs_and_power_selection) ... ok
+test_netlist_exact (__main__.ElectricalTests.test_netlist_exact) ... ok
+test_pass_isolation_and_alternative_power (__main__.ElectricalTests.test_pass_isolation_and_alternative_power) ... ok
+test_all_states_controls_edges (__main__.LogicTests.test_all_states_controls_edges) ... ok
+test_async_clear (__main__.LogicTests.test_async_clear) ... ok
+test_binary_sequence_division_duty (__main__.LogicTests.test_binary_sequence_division_duty) ... ok
+test_startup_phase (__main__.LogicTests.test_startup_phase) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.181s
+
+OK

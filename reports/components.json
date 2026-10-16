@@ -1,0 +1,411 @@
+{
+  "U1": {
+    "ref": "U1",
+    "key": "CD74ACT161E",
+    "value": "CD74ACT161E",
+    "source_fp": "Package_DIP:DIP-16_W7.62mm_Socket",
+    "fp": "ACT161_Frequency_Divider:DIP-16_W7.62mm_Socket",
+    "nets": {
+      "1": "VCC_LOGIC",
+      "2": "CLK_U1",
+      "3": "GND",
+      "4": "GND",
+      "5": "GND",
+      "6": "GND",
+      "7": "VCC_LOGIC",
+      "8": "GND",
+      "9": "VCC_LOGIC",
+      "10": "VCC_LOGIC",
+      "11": "Q16",
+      "12": "Q8",
+      "13": "Q4",
+      "14": "Q2",
+      "15": null,
+      "16": "VCC_LOGIC"
+    },
+    "uuid": "8db57af1-ad4d-529a-ae15-7298955351d5",
+    "x": 160.1,
+    "y": 94.6,
+    "rot": -90.0,
+    "dnp": false
+  },
+  "U3": {
+    "ref": "U3",
+    "key": "TLV75533PDBV",
+    "value": "TLV75533PDBVR / 3V3 OPTION",
+    "source_fp": "Package_TO_SOT_SMD:SOT-23-5",
+    "fp": "ACT161_Frequency_Divider:SOT-23-5",
+    "nets": {
+      "1": "+5V",
+      "2": "GND",
+      "3": "+5V",
+      "4": null,
+      "5": "+3V3"
+    },
+    "uuid": "6be7bf35-30a8-5c72-b85e-f069e12909d6",
+    "x": 140.45,
+    "y": 88.2625,
+    "rot": 90.0,
+    "dnp": true
+  },
+  "J1": {
+    "ref": "J1",
+    "key": "USB_B_Micro",
+    "value": "Molex 47346-0001",
+    "source_fp": "Connector_USB:USB_Micro-B_Molex_47346-0001",
+    "fp": "ACT161_Frequency_Divider:USB_Micro-B_Molex_47346-0001",
+    "nets": {
+      "1": "+5V",
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": "GND",
+      "SH": "GND"
+    },
+    "uuid": "3fed3b98-e9a8-56af-ac2c-4e4394b9308e",
+    "x": 147.6,
+    "y": 87.7,
+    "rot": 180.0,
+    "dnp": false
+  },
+  "J2": {
+    "ref": "J2",
+    "key": "Conn_02x05_Odd_Even",
+    "value": "DS1002-01-2x5V13-JK / EDGE UNVERIFIED",
+    "source_fp": "custom:J2_Edge_2x05",
+    "fp": "ACT161_Frequency_Divider:J2_Edge_2x05",
+    "nets": {
+      "1": "DIV2",
+      "3": "DIV4",
+      "5": "DIV8",
+      "7": "DIV16",
+      "9": "GND",
+      "2": "PASS2",
+      "4": "PASS4",
+      "6": "PASS6",
+      "8": "PASS8",
+      "10": "PASS10"
+    },
+    "uuid": "3fdb80de-e16b-5a26-844b-638cc0c6db3d",
+    "x": 126.6,
+    "y": 93.32,
+    "rot": 0.0,
+    "dnp": false
+  },
+  "J3": {
+    "ref": "J3",
+    "key": "Conn_02x05_Odd_Even",
+    "value": "DUT / male 2x5 EDGE UNVERIFIED",
+    "source_fp": "custom:J3_Edge_2x05",
+    "fp": "ACT161_Frequency_Divider:J3_Edge_2x05",
+    "nets": {
+      "1": "CLK_IN",
+      "3": null,
+      "5": null,
+      "7": null,
+      "9": "GND",
+      "2": "PASS2",
+      "4": "PASS4",
+      "6": "PASS6",
+      "8": "PASS8",
+      "10": "PASS10"
+    },
+    "uuid": "5e5ea8d7-e602-501e-be1d-fd523ac43cd8",
+    "x": 169.4,
+    "y": 93.32,
+    "rot": 0.0,
+    "dnp": false
+  },
+  "C1": {
+    "ref": "C1",
+    "key": "C",
+    "value": "100n / 25V X7R",
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+    "fp": "ACT161_Frequency_Divider:C_0603_1608Metric",
+    "nets": {
+      "1": "VCC_LOGIC",
+      "2": "GND"
+    },
+    "uuid": "983a6338-ec84-5e01-9597-5498bff09e6e",
+    "x": 162.6,
+    "y": 101.4,
+    "rot": 90.0,
+    "dnp": false
+  },
+  "C2": {
+    "ref": "C2",
+    "key": "C",
+    "value": "4.7u / 16V X7R",
+    "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+    "fp": "ACT161_Frequency_Divider:C_0805_2012Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    },
+    "uuid": "72de5942-beb6-5277-9389-fb0ca795ce97",
+    "x": 146.6,
+    "y": 91.95,
+    "rot": 0.0,
+    "dnp": false
+  },
+  "C4": {
+    "ref": "C4",
+    "key": "C",
+    "value": "4.7u / 16V X7R / DNP",
+    "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+    "fp": "ACT161_Frequency_Divider:C_0805_2012Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "uuid": "2849e644-1678-5b6e-b148-a01392e1b733",
+    "x": 136.2,
+    "y": 86.85,
+    "rot": 90.0,
+    "dnp": true
+  },
+  "C5": {
+    "ref": "C5",
+    "key": "C",
+    "value": "1u / 16V X7R",
+    "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+    "fp": "ACT161_Frequency_Divider:C_0805_2012Metric",
+    "nets": {
+      "1": "VCC_LOGIC",
+      "2": "GND"
+    },
+    "uuid": "d00143cc-04fa-5792-86a7-0afe70892b28",
+    "x": 152.6,
+    "y": 105.6,
+    "rot": -90.0,
+    "dnp": false
+  },
+  "LED1": {
+    "ref": "LED1",
+    "key": "LED",
+    "value": "YELLOW 3mm",
+    "source_fp": "LED_THT:LED_D3.0mm",
+    "fp": "ACT161_Frequency_Divider:LED_D3.0mm",
+    "nets": {
+      "1": "GND",
+      "2": "LED_A"
+    },
+    "uuid": "e18bfec8-95e2-53eb-9493-f80c5b252b9e",
+    "x": 158.6,
+    "y": 88.9,
+    "rot": 0.0,
+    "dnp": false
+  },
+  "R13": {
+    "ref": "R13",
+    "key": "R",
+    "value": "5.1k",
+    "source_fp": "Resistor_SMD:R_0603_1608Metric",
+    "fp": "ACT161_Frequency_Divider:R_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "LED_A"
+    },
+    "uuid": "33744e42-855f-5758-bf09-6e82e7895ea7",
+    "x": 155.3,
+    "y": 91.4,
+    "rot": 0.0,
+    "dnp": false
+  },
+  "R14": {
+    "ref": "R14",
+    "key": "R",
+    "value": "0R (0-100R option)",
+    "source_fp": "Resistor_SMD:R_0603_1608Metric",
+    "fp": "ACT161_Frequency_Divider:R_0603_1608Metric",
+    "nets": {
+      "1": "CLK_IN",
+      "2": "CLK_U1"
+    },
+    "uuid": "2ffe8a5c-ea6c-5b2e-be53-9f4a4c6c01ea",
+    "x": 163.4,
+    "y": 93.6,
+    "rot": 180.0,
+    "dnp": false
+  },
+  "R15": {
+    "ref": "R15",
+    "key": "R",
+    "value": "10k",
+    "source_fp": "Resistor_SMD:R_0603_1608Metric",
+    "fp": "ACT161_Frequency_Divider:R_0603_1608Metric",
+    "nets": {
+      "1": "CLK_U1",
+      "2": "GND"
+    },
+    "uuid": "433c4658-cccb-5ea4-b1e1-bff17f6d3002",
+    "x": 162.6,
+    "y": 95.825,
+    "rot": -90.0,
+    "dnp": false
+  },
+  "R5": {
+    "ref": "R5",
+    "key": "R",
+    "value": "0R / 5V DEFAULT",
+    "source_fp": "Resistor_SMD:R_0603_1608Metric",
+    "fp": "ACT161_Frequency_Divider:R_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "VCC_LOGIC"
+    },
+    "uuid": "a0d0e193-9f93-54e8-a665-2cefcf21feba",
+    "x": 137.7,
+    "y": 92.4,
+    "rot": -90.0,
+    "dnp": false
+  },
+  "R6": {
+    "ref": "R6",
+    "key": "R",
+    "value": "0R / 3V3 OPTION",
+    "source_fp": "Resistor_SMD:R_0603_1608Metric",
+    "fp": "ACT161_Frequency_Divider:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "VCC_LOGIC"
+    },
+    "uuid": "7e405b8a-416e-55f0-aec9-d08f94666bb3",
+    "x": 136.2,
+    "y": 92.4,
+    "rot": -90.0,
+    "dnp": true
+  },
+  "R1": {
+    "ref": "R1",
+    "key": "R",
+    "value": "47R",
+    "source_fp": "Resistor_SMD:R_0603_1608Metric",
+    "fp": "ACT161_Frequency_Divider:R_0603_1608Metric",
+    "nets": {
+      "1": "Q2",
+      "2": "DIV2"
+    },
+    "uuid": "a97b1b29-c28d-5c4b-95ad-c373d5d5e938",
+    "x": 132.6,
+    "y": 93.32,
+    "rot": 180.0,
+    "dnp": false
+  },
+  "R2": {
+    "ref": "R2",
+    "key": "R",
+    "value": "47R",
+    "source_fp": "Resistor_SMD:R_0603_1608Metric",
+    "fp": "ACT161_Frequency_Divider:R_0603_1608Metric",
+    "nets": {
+      "1": "Q4",
+      "2": "DIV4"
+    },
+    "uuid": "8d064215-e70d-52bf-b88b-374382993291",
+    "x": 132.6,
+    "y": 95.86,
+    "rot": 180.0,
+    "dnp": false
+  },
+  "R3": {
+    "ref": "R3",
+    "key": "R",
+    "value": "47R",
+    "source_fp": "Resistor_SMD:R_0603_1608Metric",
+    "fp": "ACT161_Frequency_Divider:R_0603_1608Metric",
+    "nets": {
+      "1": "Q8",
+      "2": "DIV8"
+    },
+    "uuid": "1c777b7c-b0bb-57d0-97cc-9100e409ef26",
+    "x": 132.6,
+    "y": 98.4,
+    "rot": 180.0,
+    "dnp": false
+  },
+  "R4": {
+    "ref": "R4",
+    "key": "R",
+    "value": "47R",
+    "source_fp": "Resistor_SMD:R_0603_1608Metric",
+    "fp": "ACT161_Frequency_Divider:R_0603_1608Metric",
+    "nets": {
+      "1": "Q16",
+      "2": "DIV16"
+    },
+    "uuid": "65c3cc20-c03c-5c29-b210-009156d5e783",
+    "x": 132.6,
+    "y": 100.94,
+    "rot": 180.0,
+    "dnp": false
+  },
+  "H1": {
+    "ref": "H1",
+    "key": "MountingHole",
+    "value": "M3 / 3.2mm",
+    "source_fp": "MountingHole:MountingHole_3.2mm_M3",
+    "fp": "ACT161_Frequency_Divider:MountingHole_3.2mm_M3",
+    "nets": {},
+    "uuid": "3b1f0721-937c-5b3d-a910-b658dbe5a95a",
+    "x": 130.4,
+    "y": 88.6,
+    "rot": 0.0,
+    "dnp": false
+  },
+  "H2": {
+    "ref": "H2",
+    "key": "MountingHole",
+    "value": "M3 / 3.2mm",
+    "source_fp": "MountingHole:MountingHole_3.2mm_M3",
+    "fp": "ACT161_Frequency_Divider:MountingHole_3.2mm_M3",
+    "nets": {},
+    "uuid": "1e561da3-a745-5636-bf7a-26137f3e238d",
+    "x": 166.0,
+    "y": 88.6,
+    "rot": 0.0,
+    "dnp": false
+  },
+  "H3": {
+    "ref": "H3",
+    "key": "MountingHole",
+    "value": "M3 / 3.2mm",
+    "source_fp": "MountingHole:MountingHole_3.2mm_M3",
+    "fp": "ACT161_Frequency_Divider:MountingHole_3.2mm_M3",
+    "nets": {},
+    "uuid": "f93e5ea5-6984-55ee-a892-319d0860e787",
+    "x": 130.4,
+    "y": 108.2,
+    "rot": 0.0,
+    "dnp": false
+  },
+  "H4": {
+    "ref": "H4",
+    "key": "MountingHole",
+    "value": "M3 / 3.2mm",
+    "source_fp": "MountingHole:MountingHole_3.2mm_M3",
+    "fp": "ACT161_Frequency_Divider:MountingHole_3.2mm_M3",
+    "nets": {},
+    "uuid": "1afa0804-68b8-5c53-9e5d-04a475327229",
+    "x": 166.0,
+    "y": 108.2,
+    "rot": 0.0,
+    "dnp": false
+  },
+  "J4": {
+    "ref": "J4",
+    "key": "Conn_01x02",
+    "value": "5V POWER INPUT",
+    "source_fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "fp": "ACT161_Frequency_Divider:PinHeader_1x02_P2.54mm_Vertical",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    },
+    "uuid": "5c1c7c88-f778-525b-bab4-95d33577d274",
+    "x": 155.0,
+    "y": 86.2,
+    "rot": 0.0,
+    "dnp": false
+  }
+}

@@ -1,0 +1,24 @@
+﻿Reference,Quantity,Value_or_MPN,Footprint,Default_assembly,Requirements
+U1,1,CD74ACT161E,ACT161_Frequency_Divider:DIP-16_W7.62mm_Socket,FIT,"TI CD74ACT161E, PDIP-16 in SCS-16 socket; DEFAULT 5V. Optional 3.3V requires replacement by CD74AC161E."
+U3,1,TLV75533PDBVR / 3V3 OPTION,ACT161_Frequency_Divider:SOT-23-5,DNP,OPTIONAL 3.3V ONLY: TI TLV75533PDBVR SOT-23-5. Fit with R6/C4; remove R5 and replace U1 by CD74AC161E.
+J1,1,Molex 47346-0001,ACT161_Frequency_Divider:USB_Micro-B_Molex_47346-0001,FIT,Exact Molex 47346-0001; substitutions require a matching footprint.
+J2,1,DS1002-01-2x5V13-JK / EDGE UNVERIFIED,ACT161_Frequency_Divider:J2_Edge_2x05,FIT,"CONNFLY DS1002-01-2x5V13-JK, modified edge mounting, UNVERIFIED: measure tails/body/mating number order before manufacture."
+J3,1,DUT / male 2x5 EDGE UNVERIFIED,ACT161_Frequency_Divider:J3_Edge_2x05,FIT,"Male 2x5, 2.54mm, modified edge mounting. No approved MPN or mechanical drawing: UNVERIFIED. Not a bottom THT header."
+C1,1,100n / 25V X7R,ACT161_Frequency_Divider:C_0603_1608Metric,FIT,"100nF 25V X7R 0603, +/-20%; directly next to U1 pin 16."
+C2,1,4.7u / 16V X7R,ACT161_Frequency_Divider:C_0805_2012Metric,FIT,"4.7uF 16V X7R 0805, +/-20%; effective >=1uF at bias/temperature for optional U3 input."
+C4,1,4.7u / 16V X7R / DNP,ACT161_Frequency_Divider:C_0805_2012Metric,DNP,OPTIONAL 3.3V ONLY: 4.7uF 16V X7R 0805; effective >=1uF at bias/temperature for U3 output.
+C5,1,1u / 16V X7R,ACT161_Frequency_Divider:C_0805_2012Metric,FIT,"1uF 16V X7R 0805, +/-20%; bulk on selected VCC_LOGIC."
+LED1,1,YELLOW 3mm,ACT161_Frequency_Divider:LED_D3.0mm,FIT,"Yellow 3mm THT, 2.54mm lead pitch; pad1 cathode, pad2 anode. Verify purchased part."
+R13,1,5.1k,ACT161_Frequency_Divider:R_0603_1608Metric,FIT,"R_LED: 5.1k 0603 1% >=0.1W; LED indicates common input 5V from USB or J4, not selected U1 supply."
+R14,1,0R (0-100R option),ACT161_Frequency_Divider:R_0603_1608Metric,FIT,R_CLK: fit 0R 0603; 0-100R option only after observing waveform at U1 pin2.
+R15,1,10k,ACT161_Frequency_Divider:R_0603_1608Metric,FIT,"R_PD: 10k 0603 1% >=0.1W; pull-down, 0.5mA at 5V."
+R5,1,0R / 5V DEFAULT,ACT161_Frequency_Divider:R_0603_1608Metric,FIT,0R 0603 DEFAULT 5V supply link; mutually exclusive with R6.
+R6,1,0R / 3V3 OPTION,ACT161_Frequency_Divider:R_0603_1608Metric,DNP,0R 0603 OPTIONAL 3.3V supply link; remove R5 first; requires U3/C4 and CD74AC161E in socket.
+R1,1,47R,ACT161_Frequency_Divider:R_0603_1608Metric,FIT,47R 0603 1% >=0.1W; initial series damping; tune for actual cable/input capacitance.
+R2,1,47R,ACT161_Frequency_Divider:R_0603_1608Metric,FIT,47R 0603 1% >=0.1W; initial series damping; tune for actual cable/input capacitance.
+R3,1,47R,ACT161_Frequency_Divider:R_0603_1608Metric,FIT,47R 0603 1% >=0.1W; initial series damping; tune for actual cable/input capacitance.
+R4,1,47R,ACT161_Frequency_Divider:R_0603_1608Metric,FIT,47R 0603 1% >=0.1W; initial series damping; tune for actual cable/input capacitance.
+J4,1,5V POWER INPUT,ACT161_Frequency_Divider:PinHeader_1x02_P2.54mm_Vertical,FIT,"Male THT header 1x2, 2.54mm pitch, 1.0mm holes, vertical. Pin1 +5V, pin2 GND. Regulated 5V alternative input; use either USB or J4, never both simultaneously."
+U1 ALT,1,CD74AC161E,Same DIP-16 socket,OPTIONAL REPLACEMENT,"Replace U1 for 3.3V operation; no second PCB IC. Clock 0..VCC, max64MHz -55..125C; original ACT cannot run at 3.3V."
+U1 socket,1,SCS-16,DIP-16_W7.62mm_Socket,FIT,"Separate socket in U1 holes; 7.62mm rows, 2.54mm pitch; verify exact body."
+H1-H4,4,M3 mounting hardware,NPTH 3.2mm,MECHANICAL,Envelope <=6.4mm; check standoffs/enclosure.

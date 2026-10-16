@@ -1,0 +1,43 @@
+[
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "erc",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "F:\\LogicAnalyzer_ClockDivider_74ACT161E\\ACT161_Frequency_Divider\\reports\\ERC.txt",
+      "F:\\LogicAnalyzer_ClockDivider_74ACT161E\\ACT161_Frequency_Divider\\ACT161_Frequency_Divider.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "Found 0 violations\nSaved ERC Report to F:/LogicAnalyzer_ClockDivider_74ACT161E/ACT161_Frequency_Divider/reports/ERC.txt\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "pcb",
+      "drc",
+      "--schematic-parity",
+      "--all-track-errors",
+      "--severity-all",
+      "--exit-code-violations",
+      "--refill-zones",
+      "--save-board",
+      "-o",
+      "F:\\LogicAnalyzer_ClockDivider_74ACT161E\\ACT161_Frequency_Divider\\reports\\DRC.txt",
+      "F:\\LogicAnalyzer_ClockDivider_74ACT161E\\ACT161_Frequency_Divider\\ACT161_Frequency_Divider.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to F:/LogicAnalyzer_ClockDivider_74ACT161E/ACT161_Frequency_Divider/reports/DRC.txt\nSaved board\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\python.exe",
+      "F:\\LogicAnalyzer_ClockDivider_74ACT161E\\ACT161_Frequency_Divider\\scripts\\validate.py"
+    ],
+    "exit_code": 0
+  }
+]

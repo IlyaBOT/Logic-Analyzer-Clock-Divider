@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>F:\LogicAnalyzer_ClockDivider_74ACT161E\ACT161_Frequency_Divider\ACT161_Frequency_Divider.kicad_sch</source>
+    <date>2026-10-09T03:37:33</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>74ACT161 Frequency Divider</title>
+        <company>Engineering prototype - UNVERIFIED edge connectors / analyzer</company>
+        <rev>R4</rev>
+        <date>2026-10-09</date>
+        <source>ACT161_Frequency_Divider.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n / 25V X7R</value>
+      <footprint>ACT161_Frequency_Divider:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>983a6338-ec84-5e01-9597-5498bff09e6e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>4.7u / 16V X7R</value>
+      <footprint>ACT161_Frequency_Divider:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72de5942-beb6-5277-9389-fb0ca795ce97</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>4.7u / 16V X7R / DNP</value>
+      <footprint>ACT161_Frequency_Divider:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2849e644-1678-5b6e-b148-a01392e1b733</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>1u / 16V X7R</value>
+      <footprint>ACT161_Frequency_Divider:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d00143cc-04fa-5792-86a7-0afe70892b28</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>M3 / 3.2mm</value>
+      <footprint>ACT161_Frequency_Divider:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b1f0721-937c-5b3d-a910-b658dbe5a95a</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>M3 / 3.2mm</value>
+      <footprint>ACT161_Frequency_Divider:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e561da3-a745-5636-bf7a-26137f3e238d</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>M3 / 3.2mm</value>
+      <footprint>ACT161_Frequency_Divider:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f93e5ea5-6984-55ee-a892-319d0860e787</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>M3 / 3.2mm</value>
+      <footprint>ACT161_Frequency_Divider:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1afa0804-68b8-5c53-9e5d-04a475327229</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Molex 47346-0001</value>
+      <footprint>ACT161_Frequency_Divider:USB_Micro-B_Molex_47346-0001</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:USB_Micro-B_Molex_47346-0001</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <property name="ki_fp_filters" value="USB*Micro*B*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fed3b98-e9a8-56af-ac2c-4e4394b9308e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="SH"/>
+            <pin num="5"/>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>DS1002-01-2x5V13-JK / EDGE UNVERIFIED</value>
+      <footprint>ACT161_Frequency_Divider:J2_Edge_2x05</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:J2_Edge_2x05</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fdb80de-e16b-5a26-844b-638cc0c6db3d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>DUT / male 2x5 EDGE UNVERIFIED</value>
+      <footprint>ACT161_Frequency_Divider:J3_Edge_2x05</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:J3_Edge_2x05</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e5ea8d7-e602-501e-be1d-fd523ac43cd8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>5V POWER INPUT</value>
+      <footprint>ACT161_Frequency_Divider:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c1c7c88-f778-525b-bab4-95d33577d274</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED1">
+      <value>YELLOW 3mm</value>
+      <footprint>ACT161_Frequency_Divider:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:LED_D3.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e18bfec8-95e2-53eb-9493-f80c5b252b9e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>47R</value>
+      <footprint>ACT161_Frequency_Divider:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a97b1b29-c28d-5c4b-95ad-c373d5d5e938</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>47R</value>
+      <footprint>ACT161_Frequency_Divider:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d064215-e70d-52bf-b88b-374382993291</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>47R</value>
+      <footprint>ACT161_Frequency_Divider:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c777b7c-b0bb-57d0-97cc-9100e409ef26</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>47R</value>
+      <footprint>ACT161_Frequency_Divider:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65c3cc20-c03c-5c29-b210-009156d5e783</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>0R / 5V DEFAULT</value>
+      <footprint>ACT161_Frequency_Divider:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0d0e193-9f93-54e8-a665-2cefcf21feba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>0R / 3V3 OPTION</value>
+      <footprint>ACT161_Frequency_Divider:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e405b8a-416e-55f0-aec9-d08f94666bb3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>5.1k</value>
+      <footprint>ACT161_Frequency_Divider:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33744e42-855f-5758-bf09-6e82e7895ea7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>0R (0-100R option)</value>
+      <footprint>ACT161_Frequency_Divider:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ffe8a5c-ea6c-5b2e-be53-9f4a4c6c01ea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>ACT161_Frequency_Divider:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>433c4658-cccb-5ea4-b1e1-bff17f6d3002</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>CD74ACT161E</value>
+      <footprint>ACT161_Frequency_Divider:DIP-16_W7.62mm_Socket</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/cd74act161.pdf</datasheet>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:DIP-16_W7.62mm_Socket</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/cd74act161.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="CD74ACT161E" description="Synchronous 4-bit programmable binary Counter"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="ki_keywords" value="TTL CNT CNT4"/>
+      <property name="ki_fp_filters" value="DIP?16*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8db57af1-ad4d-529a-ae15-7298955351d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="9"/>
+            <pin num="7"/>
+            <pin num="10"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="16"/>
+            <pin num="8"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="15"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>TLV75533PDBVR / 3V3 OPTION</value>
+      <footprint>ACT161_Frequency_Divider:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv755p.pdf</datasheet>
+      <fields>
+        <field name="Footprint">ACT161_Frequency_Divider:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv755p.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Divider" part="TLV75533PDBV" description="500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <property name="Sheetname" value="ACT161_Frequency_Divider"/>
+      <property name="Sheetfile" value="ACT161_Frequency_Divider.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="LDO Regulator Fixed Positive"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6be7bf35-30a8-5c72-b85e-f069e12909d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Divider" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Divider" part="CD74ACT161E">
+      <description>Synchronous 4-bit programmable binary Counter</description>
+      <docs>https://www.ti.com/lit/ds/symlink/cd74act161.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD74ACT161E</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/cd74act161.pdf</field>
+        <field name="Description">Synchronous 4-bit programmable binary Counter</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CLR}" type="input"/>
+        <pin num="2" name="CLK" type="input"/>
+        <pin num="3" name="A" type="input"/>
+        <pin num="4" name="B" type="input"/>
+        <pin num="5" name="C" type="input"/>
+        <pin num="6" name="D" type="input"/>
+        <pin num="7" name="ENP" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="~{LOAD}" type="input"/>
+        <pin num="10" name="ENT" type="input"/>
+        <pin num="11" name="QD" type="output"/>
+        <pin num="12" name="QC" type="output"/>
+        <pin num="13" name="QB" type="output"/>
+        <pin num="14" name="QA" type="output"/>
+        <pin num="15" name="RCO" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Divider" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Divider" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Divider" part="LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Divider" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+    <libpart lib="Divider" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Divider" part="TLV75533PDBV">
+      <description>500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv755p.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV75533PDBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv755p.pdf</field>
+        <field name="Description">500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Divider" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <footprints>
+        <fp>USB*Micro*B*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">USB Micro Type B connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="SH" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Divider">
+      <uri>${KIPRJMOD}/libraries/Divider.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OUT_5" pintype="power_out"/>
+    </net>
+    <net code="2" name="/+5V" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS_1" pintype="power_out"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="IN_1" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="EN_3" pintype="input"/>
+    </net>
+    <net code="3" name="/CLK_IN" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/CLK_U1" class="Default">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="CLK_2" pintype="input"/>
+    </net>
+    <net code="5" name="/DIV2" class="Default">
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/DIV4" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/DIV8" class="Default">
+      <node ref="J2" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/DIV16" class="Default">
+      <node ref="J2" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="GND_5" pintype="power_out"/>
+      <node ref="J1" pin="SH" pinfunction="Shield_SH" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="A_3" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="B_4" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="C_5" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="D_6" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="10" name="/LED_A" class="Default">
+      <node ref="LED1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/PASS2" class="Default">
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="12" name="/PASS4" class="Default">
+      <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    </net>
+    <net code="13" name="/PASS6" class="Default">
+      <node ref="J2" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+    </net>
+    <net code="14" name="/PASS8" class="Default">
+      <node ref="J2" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+    </net>
+    <net code="15" name="/PASS10" class="Default">
+      <node ref="J2" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+    </net>
+    <net code="16" name="/Q2" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="QA_14" pintype="output"/>
+    </net>
+    <net code="17" name="/Q4" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="QB_13" pintype="output"/>
+    </net>
+    <net code="18" name="/Q8" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="QC_12" pintype="output"/>
+    </net>
+    <net code="19" name="/Q16" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="QD_11" pintype="output"/>
+    </net>
+    <net code="20" name="/VCC_LOGIC" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="~{CLR}_1" pintype="input"/>
+      <node ref="U1" pin="10" pinfunction="ENT_10" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="ENP_7" pintype="input"/>
+      <node ref="U1" pin="9" pinfunction="~{LOAD}_9" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(J1-D+-Pad3)" class="Default">
+      <node ref="J1" pin="3" pinfunction="D+_3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(J1-D--Pad2)" class="Default">
+      <node ref="J1" pin="2" pinfunction="D-_2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(J1-ID-Pad4)" class="Default">
+      <node ref="J1" pin="4" pinfunction="ID_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(J3-Pin_3-Pad3)" class="Default">
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J3-Pin_5-Pad5)" class="Default">
+      <node ref="J3" pin="5" pinfunction="Pin_5_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(J3-Pin_7-Pad7)" class="Default">
+      <node ref="J3" pin="7" pinfunction="Pin_7_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-RCO-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="RCO_15" pintype="output+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U3-NC-Pad4)" class="Default">
+      <node ref="U3" pin="4" pinfunction="NC_4" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

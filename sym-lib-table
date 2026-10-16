@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "Divider") (type "KiCad") (uri "${KIPRJMOD}/libraries/Divider.kicad_sym") (options "") (descr "Portable standard symbols; U1 pin names from TI")))

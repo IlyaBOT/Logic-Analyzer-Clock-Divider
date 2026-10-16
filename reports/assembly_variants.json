@@ -1,0 +1,44 @@
+{
+  "default_5V": {
+    "U1": "CD74ACT161E",
+    "fit": [
+      "R5"
+    ],
+    "dnp": [
+      "R6",
+      "U3",
+      "C4"
+    ],
+    "VCC_LOGIC_V": 5,
+    "power_input": {
+      "J1": "USB 5V",
+      "J4": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "one_source_only": true
+    },
+    "datasheet_max_clock_MHz_full_temperature": 80
+  },
+  "optional_3V3": {
+    "U1": "CD74AC161E",
+    "fit": [
+      "R6",
+      "U3",
+      "C4"
+    ],
+    "dnp": [
+      "R5"
+    ],
+    "VCC_LOGIC_V": 3.3,
+    "power_input": {
+      "J1": "USB 5V",
+      "J4": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "one_source_only": true
+    },
+    "datasheet_max_clock_MHz_full_temperature": 64
+  }
+}

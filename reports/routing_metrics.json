@@ -1,0 +1,15 @@
+{
+  "tracks_length_mm": {
+    "F.Cu": 205.60775171991398,
+    "B.Cu": 194.42489465456342
+  },
+  "vias": 23,
+  "ground_vias": 23,
+  "signal_vias": 0,
+  "board_mm": [
+    42.8,
+    27.6,
+    1.6
+  ],
+  "min_trace_mm": 0.2
+}
